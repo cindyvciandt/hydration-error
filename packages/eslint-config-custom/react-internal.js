@@ -34,6 +34,9 @@ module.exports = {
   ignorePatterns: ["node_modules/", "dist/", ".eslintrc.js"],
 
   rules: {
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "unicorn/filename-case": "off",
+    "import/no-default-export": "off"
     // add specific rules configurations here
   },
 };
